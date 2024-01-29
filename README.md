@@ -16,3 +16,4 @@ Arduino decoder for the National Physical Laboratory MSF radio time code
 1. Rewrite with bitfields not whole bytes to hold bits..
 2. Clean up code
 3. Integrate with [gameoflife](https://github.com/ali-raheem/game_of_life)
+4. Rewrite to be interrupt driven
