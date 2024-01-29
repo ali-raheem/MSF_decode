@@ -1,6 +1,6 @@
 /*
- * MSF decoder
- * Ali Raheem 2024 GPL3
+ * MSF protocol
+ * 
  * Carrier on-off keying
  * Minute marker (second 00)
  *                 ________________
@@ -24,12 +24,12 @@ bool LED_STATE = false;
 const unsigned long JITTER = 50L * NANOS_IN_MILLI;
 const int DEBUG = false;
 
-unsigned long A[64], B[64]; // FIXME should be bitfield.
+byte A[64], B[64]; // FIXME should be bitfield.
 unsigned int bitIndex;
 unsigned int year = 0, month = 0, dayOfMonth = 0, dayOfWeek = 0, hours = 0, minutes = 0;
 bool TIME_GOOD = false;
 
-unsigned int get_bit(unsigned long *bits, int i) {
+unsigned int get_bit(byte *bits, int i) {
   return bits[i];
 }
 inline bool approxEq(const unsigned long X, const unsigned long Y, const unsigned long J) {
