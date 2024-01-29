@@ -1,6 +1,11 @@
 # MSF_decode
 Arduino decoder for the National Physical Laboratory MSF radio time code
 
+
+## Files
+- MSFdecoder - interrupt based decoder
+- MSF_decode - non-interrupt based decoder
+
 [Overview](https://www.npl.co.uk/msf-signal) and [wiki article](https://en.wikipedia.org/wiki/Time_from_NPL_(MSF))
 
 [Technical information](https://www.npl.co.uk/products-services/time-frequency/msf-radio-time-signal/msf_time_date_code)
@@ -16,4 +21,4 @@ Arduino decoder for the National Physical Laboratory MSF radio time code
 1. Rewrite with bitfields not whole bytes to hold bits..
 2. Clean up code
 3. Integrate with [gameoflife](https://github.com/ali-raheem/game_of_life)
-4. Rewrite to be interrupt driven
+4. ~~Rewrite to be interrupt driven~~
