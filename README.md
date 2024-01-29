@@ -10,3 +10,9 @@ Arduino decoder for the National Physical Laboratory MSF radio time code
 
 
 ![Serial output](https://github.com/ali-raheem/MSF_decode/assets/355742/f1ab7966-4055-4efc-9480-f119e6c31cc2)
+
+
+## Todo
+1. Rewrite with bitfields not whole bytes to hold bits..
+2. Clean up code
+3. Integrate with [gameoflife](https://github.com/ali-raheem/game_of_life)
