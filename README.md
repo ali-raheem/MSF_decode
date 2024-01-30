@@ -22,3 +22,7 @@ Arduino decoder for the National Physical Laboratory MSF radio time code
 2. Clean up code
 3. Integrate with [gameoflife](https://github.com/ali-raheem/game_of_life)
 4. ~~Rewrite to be interrupt driven~~
+
+## Utils
+Use MSF_tune to adjust the antenna if needed(check the plotter `ctrl+shift+L`. A good enough response is shown in the plotter below. the minute marker is the meeting in the middle at 500ms.
+![image](https://github.com/ali-raheem/MSF_decode/assets/355742/d8541e46-f563-4cc1-bbde-e0fc2c467df1)
